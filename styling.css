@@ -20,9 +20,7 @@ th{
 	padding-bottom: 10px;
 }
 
-#subtitle2{
-	padding-top: -20px;
-}
+
 
 td {
 	padding: 15px;
@@ -33,6 +31,7 @@ tr:nth-child(odd) {background-color: #ff5c33; color: #F0F0F0;
 }
 
 table{ 
+	max-width: 1200px;
 	font-weight: normal;
 	border: 0px solid black;
 	border-collapse: collapse;
@@ -86,6 +85,7 @@ ul {
   background: #ff5c33;
   z-index: -1;
 }
+
 
 #cite {
 	color: #F0F0F0 ;
@@ -185,4 +185,48 @@ ul {
 	margin-right: -4%;
 	position: fixed;
 	margin-left: 80%;
+}
+
+#link1:visited { 
+    color: #c0c0c0;
+}
+
+#link2:visited { 
+    color: #909090;
+}
+
+#link3:visited { 
+    color: #c0c0c0;
+}
+
+#link4:visited { 
+    color: #909090;
+}
+
+#link5:visited { 
+    color: #c0c0c0;
+}
+#link1:hover { 
+    background-color: #cc4928;
+}
+#link2:hover { 
+    background-color: #D8D8D8;
+}
+
+#link3:hover { 
+    background-color: #cc4928;
+}
+
+#link4:hover { 
+    background-color: #D8D8D8;
+}
+
+#link5:hover { 
+    background-color: #cc4928;
+}
+
+@media only screen and (min-width: 1200px) {
+    table {
+        margin-left: 15%;
+    }
 }
